@@ -1,0 +1,187 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFD0 url(images/img1.jpg) repeat-x;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	text-align: justify;
+	color: #3D515C;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0 0 0 20px;
+	letter-spacing: -1px;
+	font-weight: normal;
+	font-style: italic;
+	color: #900;
+}
+
+h1 {font-size: 1.4em;}
+
+p, ul, ol {
+	margin-top: 0;
+	padding-top: 0;
+	line-height: 150%;
+}
+
+ul, ol {
+	color: #900;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ol {
+	margin-left: 0;
+	padding-left: 1em;
+}
+
+a:link, a:active {
+	text-decoration: none;
+	color: #900;
+}
+
+a:visited, a:hover {
+	text-decoration: none;
+	color: #3D515C;
+}
+
+a.internal-link {background: url(images/external_link.gif) no-repeat left bottom; padding-left: 12px; text-decoration: underline;
+}
+a.external-link-new-window {background: url(images/external_link_new_window.gif) no-repeat left bottom; padding-left: 16px; text-decoration: underline;
+}
+
+dd.csc-textpic-caption {
+	font-size:0.8em;
+	font-style:italic;
+}
+/* Header */
+
+#header {
+	height: 116px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	background: url(images/img2a.gif) no-repeat center bottom;
+}
+
+
+#header * {
+	text-align: center;
+	text-decoration: none;
+	color: #900;
+}
+
+#header h1 {
+	letter-spacing: -2px;
+	font-size: 48px;
+}
+
+#header h2 {
+	letter-spacing: normal;
+	font-size: 12px;
+}
+
+/* Content */
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#colOne {
+	float: right;
+	width: 240px;
+}
+
+#colTwo {
+	float: left;
+	width: 440px;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding: 20px;
+	/* background: #f4bbae url(images/img1.jpg) repeat-x 0px -120px; */
+	background: #ffc4a7 url(images/img1.jpg) repeat-x 0px -120px;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: 11px;
+}
+
+/* Boxed */
+
+.boxed {
+}
+
+.boxed .title {
+	margin: 0;
+	padding: 0;
+}
+
+.boxed .csc-header {
+	margin: 0;
+	padding: 0;
+}
+
+
+.boxed .content {
+	padding: 20px;
+	background: url(images/img3.jpg) repeat-x;
+}
+
+.boxed .csc-textpic {
+	padding: 20px 20px 0 20px;
+	background: url(images/img3.jpg) repeat-x;
+}
+
+h1.csc-firstHeader {font-size: 1.5em;}
+
+.boxed .menu {
+	padding: 20px;
+	background: url(images/img3.jpg) repeat-x;
+}
+
+.boxed .image {
+	float: left;
+	margin: 5px 20px 0 0;
+}
+
+
+/*
+ zwei Spalten FCE
+*/
+
+.zweispaltencontainer .linke-spalte{
+float:left;
+width:50%;
+}
+
+.zweispaltencontainer .rechte-spalte{
+float:left;
+width:50%;
+}
+
+.clearer{
+float:none;
+clear:both;
+}
